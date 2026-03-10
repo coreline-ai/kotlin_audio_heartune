@@ -9,7 +9,7 @@
 [![API](https://img.shields.io/badge/API-26%2B-brightgreen?logo=android&logoColor=white)](https://developer.android.com/about/versions/oreo)
 [![Target SDK](https://img.shields.io/badge/Target_SDK-35-34A853?logo=android&logoColor=white)](https://developer.android.com/about/versions/15)
 [![NDK](https://img.shields.io/badge/NDK-26.3-FF6F00?logo=android&logoColor=white)](https://developer.android.com/ndk)
-[![License](https://img.shields.io/badge/라이선스-Private-lightgrey)](./LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](./LICENSE)
 
 ---
 
@@ -490,6 +490,16 @@ adb shell am start -n com.heartune.app/.MainActivity --ez induce_underrun true
 3. 변경 사항에 맞는 가장 좁은 테스트 범위를 대상으로 하세요
 4. 구현 상태가 바뀌면 `docs/TASKS.md`를 업데이트하세요
 5. 검증 플로우가 바뀌면 `docs/VERIFICATION_PLAN.md`를 업데이트하세요
+
+---
+
+## 라이선스
+
+이 프로젝트는 `GNU General Public License v3.0` 조건으로 배포됩니다.
+
+- SPDX 식별자: `GPL-3.0-only`
+- 라이선스 전문: [`LICENSE`](./LICENSE)
+- 재배포 및 수정 시 GPL v3 의무 조항을 따라야 합니다.
 
 ---
 
